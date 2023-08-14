@@ -1,0 +1,207 @@
+
+
+body {
+  font: 14px/20px 'Helvetica', Arial, sans-serif;
+  margin: 0;
+  padding: 75px 0 0 0;
+  text-align: center;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  background-color: #020101;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+
+#form-body{
+background-color: #ffffff;
+}
+
+.bodycontent {
+    line-height: 150%;
+    font-family: Helvetica;
+    font-size: 14px;
+    color: black;
+    padding: 20px;
+}
+
+div {
+    display: block;
+}
+.wrapper {
+    width: 600px;
+    margin: 0 auto 10px auto;
+    text-align: left;
+}
+
+
+#header{
+  list-style-type: none;
+  margin-bottom: 30px;
+  padding: 0;
+  overflow: hidden;
+  line-height: 110%;
+  background-color:lightgrey;
+  
+  
+}
+
+#header a{
+  
+  text-decoration-line: none;
+  text-shadow: 2px 2px 5px fuchsia;
+}
+
+ul li{
+  display: inline;
+  padding: 10px;
+}
+
+.btn {
+  padding: 8px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background: fuchsia;
+  color: #fff;
+}
+
+
+
+
+
+input,select{
+  display: block;
+  margin: 0;
+  padding: 8px;
+  background: #fff;
+  width: 100%;
+  border: 2px solid #d0d0d0 !important;
+  border-radius: 3px;
+  
+}
+
+p{
+  font-size: 14px;
+  margin:5px 0px;
+  display: inline-block;
+  color: white;
+
+}
+
+#subscribe_welcome{
+  font-size:16px;
+  color:black ;
+  margin:10px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-control-input{
+
+  padding:0px;
+  margin: 0px;
+}
+.mergerow_dropdown label{
+  color:black;
+  font-size: 18px;
+  font-family: inherit;
+  padding:1px 0px;
+}
+
+.custom-control label{
+  font-size: 14px;
+}
+
+.marketing{
+  margin-left:-15px;
+}
+
+#Marketing_Permissions{
+  color:black;
+  font-size: 18px;
+  font-family: inherit;
+  margin-top: 15px;
+
+
+}
+
+#marketing-text{
+  color: #020101;
+  font-size: 14px;
+}
+
+.form-row{
+  padding-bottom: 15px;
+  margin:10px 0px;
+
+
+
+}
+.col-form-label{
+  color:black;
+  font-size: 18px;
+  font-family: inherit;
+  display: inline;
+  
+  margin: 15px 0px;
+  padding:10px 0px;
+  
+
+
+}
+
+
+
+.rounded1 {
+    border-radius: 6px;
+}
+
+div {
+    display: block;
+}
+
+
+button {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Helvetica', Arial, sans-serif;
+  white-space: nowrap;
+  height: 42px;
+  margin: 12px 5px 12px 0;
+  padding: 0 22px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  border-radius: 3px;
+  vertical-align: top;
+  background-color: grey;
+  border-radius: 2px;
+  
+}
+
+button:hover{
+  background-color: fuchsia;
+  font-size: 22px;
+}
+
+.error, .errorText {
+  color: #e85c41;
+  font-weight: bold;
+}
+.feedback {
+  padding: 10px 0;
+  line-height: 16px;
+  font-size: 14px;
+}
