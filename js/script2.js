@@ -38,17 +38,19 @@ function checkSelect(field) {
 
 window.addEventListener('load', function(e) {
   const form  = document.getElementById('subs_form');
+
   const email = form.email;
   email.dataset.errorMsg = 'Invalid Email';
   
   const name = form.name;
-  username.dataset.errorMsg = 'Username must be 8 to 25 characters.';
+  name.dataset.errorMsg = 'name must be 8 to 25 characters.';
+
+  const choice = form.choice;
+  choice.dataset.errorMsg = 'Please select a training programme.';
   
-  const option = form.option;
-  option.dataset.errorMsg = 'Please select an option.';
   
   
-  username.addEventListener("input", function(e) {
+  name.addEventListener("input", function(e) {
     checkField(name);
   });
   
@@ -58,8 +60,8 @@ window.addEventListener('load', function(e) {
   
   
 
-  flavor.addEventListener("change", function(e) {
-    checkSelect(option);
+  choice.addEventListener("change", function(e) {
+    checkSelect(choice);
   });
 
  
@@ -68,7 +70,7 @@ window.addEventListener('load', function(e) {
     // Check errors
     checkField(name);
     checkField(email);
-    checkSelect(option);
+    checkSelect(choice);
     
 
     // If form is invalid, prevent submission
